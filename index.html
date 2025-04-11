@@ -1,11 +1,68 @@
-<html>
+<html lang="en">
     <head>
         <title>SodaDesign</title>
+        <style>
+            img.img {
+                width: 200px;
+                border-radius: 100px;
+                float: center;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                margin-top: 110px;
+
+            }
+
+            p.title {
+                font-family: Figtree;
+                font-weight: bold;
+                font-size: 30px;
+                text-align: center;
+                color: white;
+
+            }
+
+            p.description {
+                font-family: Figtree;
+                font-size: 15px;
+                text-align: center;
+                color: white;
+            }
+
+            button.work {
+                color: rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+                margin-top: 30px;
+                border-radius: 200px;
+                width: 200px;
+                height: 50px;
+                font-family: Figtree;
+                stroke-width: 0px;
+                margin-right: auto;
+                margin-left: auto;
+                display: block;
+                border: none;
+                cursor: pointer;
+                transition: background-color 0.3s ease, color 0.3s ease;
+            }
+
+            button:hover
+            {
+                background-color: #a1a1a1; /* Background color on hover */
+                color: #000; /* Text color on hover */
+            }
+
+            body {
+              background-color: #000000; /* Replace #f0f0f0 with your desired color (hex code, RGB, etc.) */
+            }
+
+            
+        </style>
     </head>
-<body>
-    <h1>Hey, i'm soda!</h1>
-    <h2>I do motion graphics and design!</h2>
-    <br>
-    <button>Check out my work</button>
-</body>
+    <body>
+       <img class="img" src="images/SodaLogo.png" alt="soda-logo">
+       <p class="title">@Soda.Motion</p>
+       <p class="description">I make simple motion graphics content on youtube!</p>
+       <button class="work">Check out my work!</button>
+    </body>
 </html>
